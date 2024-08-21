@@ -1,7 +1,7 @@
 object pepita {
   var energia = 100 
 
-  method energia() {
+  method energia() { //getter
     return energia 
   } 
 
@@ -15,7 +15,7 @@ object pepita {
 }
 
 object alpiste {
-  method energiaQueAporta() { //getter
+  method energiaQueAporta() { 
     return 20
   }
 }
@@ -24,7 +24,7 @@ object manzana {
   var madurez = 1 
   const base = 5
 
-  method madurez() {
+  method madurez() { //getter
     return madurez
   }
 
@@ -45,7 +45,7 @@ object pepon {
   var energia = 30
 
   method energia() {
-    return energia
+    return energia //getter
   }
 
   method comer(alimento) {
